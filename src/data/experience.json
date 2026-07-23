@@ -1,0 +1,18 @@
+[
+  {
+    "date": "Septembre 1981 - Juliol 2021",
+    "title": "Técnic de Sistemes i Xarxes",
+    "company": "Companyia d'Assegurances a Catalunya",
+    "description": "He participat en l'evolució dels sistemes mainframe, xarxes, seguretat, virtualització, cloud computing, bases de dades des dels anys 80 fins al 2021. He treballat amb sistemes operatius com MVS, OS/390, z/OS, Windows Server, Linux i Unix. També he gestionat xarxes LAN, WAN i VPN, així com serveis de correu electrònic, DNS, DHCP i HTTP. A més, he implementat solucions de seguretat com firewalls, proxies, antivirus i sistemes de detecció d'intrusions.",
+    "link": "",
+    "current": true
+  },
+  {
+  "date": "Gener 2022 - Actualitat",
+    "title": "Desenvolupador web i estudiant d'astronomia, física i matemàtica",
+    "company": "Autònom",
+    "description": "Ara que puc fer el que vull, em dedico a ampliar els meus coneixements de física i intentar aplicar-los en aplicacions informàtiques. Actualment estic molt centrat a desenvolupar el projecte Eddinton en ocasió dels eclipsis solars de 2026 i 2027 a la península ibèrica..",
+    "link": "",
+    "current": true
+  }
+]

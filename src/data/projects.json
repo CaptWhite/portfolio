@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Documentació del programari MEE2027",
+    "description": "El projecte MEE2027 (Modern Eddington Experiment 2027) és una iniciativa científica participativa que busca reproduir el famós experiment d'Arthur Eddington de 1919. El seu objectiu principal és mesurar amb alta precisió la desviació que pateix la llum de les estrelles en passar prop del Sol durant un eclipsi solar total, el que permet comprovar i d'Einstein (1,75 segons d'arc).",
+    "link": "https://mee2027.captwhite.com/",
+    "github": "",
+    "image": "/projects/mee2027.webp",
+    "tags": ["NEXT", "TAILWIND"]
+  },
+  {
+    "title": "ASTROMETRIA - Programación con JavaScript y TypeScript y Python",
+    "description": "Aplicació web professional per a l'anàlisi d'imatges astronòmiques que permet a astrònoms i aficionats processar fotografies del cel nocturn i obtenir dades precises de les estrelles capturades. És especialment útil per a astrònoms que necessiten determinar l'escala i l'orientació de les imatges, verificar la precisió de les muntures equatorials, o realitzar mesures astromètriques precises.",
+    "link": "https://astro.captwhite.com",
+    "image": "/projects/astro.webp",
+    "tags": ["REACT", "AXIOS", "FASTAPI", "PYTHON", "ASTROPY"]
+  }
+]
