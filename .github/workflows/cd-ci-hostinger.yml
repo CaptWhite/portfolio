@@ -76,7 +76,7 @@ jobs:
             # Añade una línea `echo` por cada variable de entorno que necesites
 
             echo "Actualizando y reiniciando contenedores..."
-            docker compose pull
+            docker compose --file docker-compose-prod.yml pull
             docker compose --file docker-compose-prod.yml down
             docker compose --file docker-compose-prod.yml up -d
             echo "✅ Despliegue de contenedores finalizado y levantado."
