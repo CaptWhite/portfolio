@@ -16,8 +16,9 @@ COPY --from=builder /app/dist /usr/share/nginx/html
 
 # Configuracion de Nginx para servir archivos estaticos con rutas limpias
 RUN echo 'server { \
-    listen 80; \
-    server_name localhost; \
+    listen 80 default_server; \
+    listen [::]:80 default_server; \
+    server_name _; \
     root /usr/share/nginx/html; \
     index index.html; \
     location / { \
