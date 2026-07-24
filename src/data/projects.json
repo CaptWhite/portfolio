@@ -1,7 +1,7 @@
 [
   {
     "title": "Documentació del programari MEE2027",
-    "description": "El projecte MEE2027 (Modern Eddington Experiment 2027) és una iniciativa científica participativa que busca reproduir el famós experiment d'Arthur Eddington de 1919. El seu objectiu principal és mesurar amb alta precisió la desviació que pateix la llum de les estrelles en passar prop del Sol durant un eclipsi solar total, el que permet comprovar i d'Einstein (1,75 segons d'arc).",
+    "description": "El projecte MEE2027 (Modern Eddington Experiment 2027) és una iniciativa científica participativa que busca reproduir el famós experiment d'Arthur Eddington de 1919. El seu objectiu principal és mesurar amb alta precisió la desviació que pateix la llum de les estrelles en passar prop del Sol durant un eclipsi solar total, el que permet comprovar la predicció d'Einstein (1,75 segons d'arc).",
     "link": "https://mee2027.captwhite.com/",
     "github": "",
     "image": "/projects/mee2027.webp",

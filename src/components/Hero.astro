@@ -5,48 +5,53 @@ import MailIcon from "@/components/icons/Mail.astro"
 import SocialPill from "@/components/SocialPill.astro"
 ---
 
-<div class="max-w-xl">
-  <div class="anim-fade-in flex gap-4 mb-6 items-center">
+<div class="max-w-4xl mx-auto">
+  <div class="flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12">
     <!-- Avatar with ambient glow -->
-    <div class="relative flex-shrink-0">
-      <div
-        class="absolute inset-0 rounded-full bg-yellow-400/30 dark:bg-yellow-400/20 blur-xl scale-125"
-        aria-hidden="true"
-      >
+    <div class="anim-fade-in flex-shrink-0">
+      <div class="relative">
+        <div
+          class="absolute inset-0 rounded-full bg-yellow-400/30 dark:bg-yellow-400/20 blur-xl scale-125"
+          aria-hidden="true"
+        >
+        </div>
+        <img
+          class="relative rounded-full shadow-2xl size-60 ring-2 ring-yellow-400/60 ring-offset-2 ring-offset-gray-50 dark:ring-offset-gray-950"
+          src="/captwhite.webp"
+          alt={personalImageAlt}
+        />
       </div>
-      <img
-        class="relative rounded-full shadow-2xl size-60 ring-2 ring-yellow-400/60 ring-offset-2 ring-offset-gray-50 dark:ring-offset-gray-950"
-        src="/captwhite.webp"
-        alt={personalImageAlt}
-      />
+    </div>
+
+    <!-- Text content -->
+    <div class="flex flex-col text-center lg:text-left">
+      <h1
+        class="anim-fade-in anim-delay-1 text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
+      >
+        Hola, sóc <span class="gradient-name"> Captwhite</span>
+      </h1>
+
+      <p
+        class="anim-fade-in anim-delay-2 mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
+      >
+        Jubilat. <strong
+          >Enginyer industrial i informàtic. Capità de iot</strong
+        > Especialitzat en tècnica de sistemes informàtics, xarxes i programació. Apassionat de l'astronomia, la física i la matemàtica.
+      </p>
+
+      <nav
+        class="anim-fade-in anim-delay-3 flex flex-wrap justify-center lg:justify-start gap-4 mt-8"
+        aria-label="Redes sociales y contacto"
+      >
+        <SocialPill href="mailto:captwhite57@gmail.com">
+          <MailIcon class="size-4" />
+          Contacta'm
+        </SocialPill>
+        <SocialPill href="https://www.linkedin.com/in/jordi-blanca-a5481486/">
+          <LinkedInIcon class="size-4" />
+          LinkedIn
+        </SocialPill>
+      </nav>
     </div>
   </div>
-
-  <h1
-    class="anim-fade-in anim-delay-1 text-4xl font-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
-  >
-    Hola, sóc <span class="gradient-name"> Captwhite</span>
-  </h1>
-
-  <p
-    class="anim-fade-in anim-delay-2 mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300"
-  >
-    Jubilat. <strong
-      >Enginyer industrial i informàtic. Capità de iot</strong
-    > Especialitzat en tècnica de sistemes informàtics, xarxes i programació. Apassionat de l'astronomia, la física i la matemàtica.
-  </p>
-
-  <nav
-    class="anim-fade-in anim-delay-3 flex flex-wrap gap-4 mt-8"
-    aria-label="Redes sociales y contacto"
-  >
-    <SocialPill href="mailto:captwhite57@gmail.com">
-      <MailIcon class="size-4" />
-      Contáctame
-    </SocialPill>
-    <SocialPill href="https://www.linkedin.com/in/jordi-blanca-a5481486/">
-      <LinkedInIcon class="size-4" />
-      LinkedIn
-    </SocialPill>
-  </nav>
 </div>

@@ -6,7 +6,7 @@ services:
     container_name: portfolio
     restart: always
     ports:
-      - "4321:80"
+      - "8020:80"
     networks:
       - webnet-portfolio
     env_file:

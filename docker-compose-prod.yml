@@ -8,16 +8,16 @@ services:
 
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.publ-http.entrypoints=web"
-      - "traefik.http.routers.publ-http.rule=Host(`captwhite.com`)"
-      - "traefik.http.routers.publ-http.middlewares=redirect-to-https@docker"
+      - "traefik.http.routers.portfolio-http.entrypoints=web"
+      - "traefik.http.routers.portfolio-http.rule=Host(`captwhite.com`)"
+      - "traefik.http.routers.portfolio-http.middlewares=redirect-to-https@docker"
       - "traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https"
       #
-      - "traefik.http.routers.publ.entrypoints=websecure"
-      - "traefik.http.routers.publ.rule=Host(`captwhite.com`)"
-      - "traefik.http.routers.publ.tls=true"
-      - "traefik.http.routers.publ.tls.certresolver=myresolver"
-      - "traefik.http.services.publ.loadbalancer.server.port=80"
+      - "traefik.http.routers.portfolio.entrypoints=websecure"
+      - "traefik.http.routers.portfolio.rule=Host(`captwhite.com`)"
+      - "traefik.http.routers.portfolio.tls=true"
+      - "traefik.http.routers.portfolio.tls.certresolver=myresolver"
+      - "traefik.http.services.portfolio.loadbalancer.server.port=80"
     networks:
       - webnet-astro
 
