@@ -13,5 +13,26 @@
     "link": "https://astro.captwhite.com",
     "image": "/projects/astro.webp",
     "tags": ["REACT", "AXIOS", "FASTAPI", "PYTHON", "ASTROPY"]
+  },
+  {
+    "title": "STAR: Cálculo y Reducción de Posiciones Estelares en Tiempo Real",
+    "description": "El projecte STAR és una aplicació web destinada al càlcul precís de la reducció de coordenades estel·lars des del catàleg astronòmic (Simbad/ICRS/J2000) fins a la posició aparent i topocèntrica observada des d'un punt específic de la Terra en una data i condicions atmosfèriques determinades.",
+    "link": "https://star.captwhite.com",
+    "image": "/projects/star.webp",
+    "tags": ["REACT", "AXIOS", "ZUSTAND", "MATERIAL UI", "PYTHON"]
+  },
+  {
+    "title": "TEMPS: Plataforma de Sincronización y Visualización de Escalas Horarias Históricas y Astronómicas",
+    "description": "El proyecto TEMPS es una aplicación web interactiva y simulador en tiempo real diseñado para la conversión, visualización y sincronización de las principales escalas de tiempo astronómicas, atómicas, siderales y solares, así como sistemas horarios históricos (Hora Itálica y Hora Babilónica), a partir de coordenadas geográficas y sello temporal UTC.",
+    "link": "https://temps.captwhite.com",
+    "image": "/projects/temps.webp",
+    "tags": ["REACT", "AXIOS", "ZUSTAND", "MATERIAL UI", "PYTHON"]
+  },
+  {
+    "title": "MEXIC: Aplicació web dinformació astronòmica i planificació de viatge associada al eclipsi solar de 2024. ",
+    "description": "El proyecto TEMPS es una aplicación web interactiva y simulador en tiempo real diseñado para la conversión, visualización y sincronización de las principales escalas de tiempo astronómicas, atómicas, siderales y solares, así como sistemas horarios históricos (Hora Itálica y Hora Babilónica), a partir de coordenadas geográficas y sello temporal UTC.",
+    "link": "https://mexic.captwhite.com",
+    "image": "/projects/mexic.webp",
+    "tags": ["WORDPRESS"]
   }
 ]

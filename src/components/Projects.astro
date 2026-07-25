@@ -8,6 +8,7 @@ import FastAPI from "./icons/FastAPI.astro"
 import Python from "./icons/Python.astro"
 import Astropy from "./icons/Astropy.astro"
 import Code from "./icons/Code.astro"
+import WordPress from "./icons/WordPress.astro"
 import ExternalLink from "./icons/ExternalLink.astro"
 import LinkButton from "./LinkButton.astro"
 import projectsData from "@/data/projects.json"
@@ -53,6 +54,11 @@ const TAGS: Record<string, { name: string; class: string; icon: any }> = {
     class: "bg-[#1a1a2e] text-[#4a90d9]",
     icon: Astropy,
   },
+  WORDPRESS: {
+    name: "Wordpress",
+    class: "bg-[#4a90d9] text-[#eeeeee]",
+    icon: WordPress
+  }
 }
 
 const DEFAULT_TAG = { name: "Tecnologia", class: "bg-gray-700 text-white", icon: Code }
